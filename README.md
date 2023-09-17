@@ -1,3 +1,13 @@
+# How to interact with JSONPlaceholder API
+
+To interact with the JSONPlaceholder API in a React application, you can use the fetch API or a library like Axios to make HTTP requests.
+In this project,Axios is used for more flexibility and cleaner code when making API requests:
+
+npm install axios
+
+### Fetch data from the JSONPlaceholder API
+ axios.get('https://jsonplaceholder.typicode.com/users')
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -13,6 +23,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
 
 ### `npm test`
 
