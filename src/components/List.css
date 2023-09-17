@@ -1,0 +1,49 @@
+.task-list button {
+    background: rgb(236, 186, 186);
+    border: 1px solid rgb(210, 139, 139);
+}
+
+.task-list button:hover {
+    background: rgb(245, 164, 164);
+}
+
+.task-list {
+    width: 95%;
+    font-size: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.task-list input {
+    top: 0;
+    left: 250px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.task-list input:hover {
+    opacity: 0.9;
+}
+
+.checkbox {
+    display: block;
+    position: relative;
+    right: 150px;
+}
+
+.li {
+    width: 300px;
+    height: 120px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.delete {
+    display: block;
+    position: relative;
+    left: 190px;
+    top: 20px;
+}
